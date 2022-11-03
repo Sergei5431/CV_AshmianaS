@@ -29,7 +29,7 @@ const arrLanguage = {
     },
     specialtyName: {
         en: 'Vehicle maintenance',
-        ru: 'Техническая эксплуатация автомобиля'
+        ru: 'Техническая эксплуатация автомобилей'
     },
     skills: {
         en: 'Skills',
@@ -76,24 +76,40 @@ const arrLanguage = {
         ru: 'Проект приют для животных'
     },
     shelterText: {
-        en: 'This is a project in which you have to design a site consisting of two pages, make it adaptive and interactive.github.shelter',
-        ru: 'Это проект, в котором предстоит спроектировать сайт, состоящий из двух страниц, сделать его адаптивным и интерактивным.'
+        en: 'This is a project in which I had to design a site consisting of two pages, make it adaptive and interactive.',
+        ru: `Это проект, в котором мне предстояло спроектировать сайт, состоящий из двух страниц, сделать его адаптивным и интерактивным.`
+    },
+    brief: {
+        en: 'A brief description of the additional functionality:',
+        ru: 'Краткое описание дополнительного функционала:'
+    },
+    briefOne: {
+        en: '- on the main page, a slider with control arrows is implemented.',
+        ru: '- на главной странице реализаван слайдер со стрелками управления.'
+    },
+    briefTwo: {
+        en: `- on the "Our pets" page, when you click on a pet's card, a modal window pops up.`,
+        ru: '- на странице "Our pets" при нажатии на карточку питомца всплывает модальное окно.'
+    },
+    briefThree: {
+        en: '- when the screen width is less than 768px, the selection by category occurs in the burger menu.',
+        ru: '- при ширине экрана менее 768px выбор по категориям происходит в бургер меню.'
     },
     store: {
         en: 'Online-Store',
         ru: 'Интернет магазин'
     },
     storeText: {
-        en: 'It is necessary to create an online store selling mobile phones, where goods will have the following functionality: filtering, sorting, searching, adding to the cart.',
-        ru: 'Необходимо создать интернет-магазин по продаже мобильных телефонов, где товары будут иметь следующий функционал: фильтрация, сортировка, поиск, добавление в корзину.'
+        en: 'The task was to create an online store selling mobile phones, where goods would have the following functionality: filtering, sorting, searching and adding to the cart.',
+        ru: 'Стояла задача создать интернет-магазин по продаже мобильных телефонов, где товары будут иметь следующий функционал: фильтрация, сортировка, поиск и добавление в корзину.'
     },
     keyboard: {
         en: 'Virtual keyboard',
         ru: 'Виртуальная клавиатура'
     },
     keyboardText: {
-        en: 'Create a virtual keyboard where all the necessary elements are generated using JS (index.html file must be empty).',
-        ru: 'Необходимо создать виртуальнай клавиатуру, в которой все необходимые элементы генерируются с помощью JS (файл index.html должен быть пустым).'
+        en: 'In this project, it was necessary to create a virtual keyboard in which all the necessary elements are generated using JavaScript (the index.html file must be empty).',
+        ru: 'В этом проекте необходимо было создать виртуальную клавиатуру, в которой все необходимые элементы генерируются с помощью JavaScript (файл index.html должен быть пустым).'
     },
     portfolio: {
         en: 'Landing page Portfolio',

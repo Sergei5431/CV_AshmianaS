@@ -343,8 +343,15 @@ body{
     }
     .work__info{
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .indents{
+        margin-top: 5px;
+    }
+    .color{
+       font-weight: 600;
     }
     .work__date{
         margin-right: 10px;
