@@ -16,14 +16,21 @@
 				</figure>
 			</div>
 			<div class="column column_main column_header">
-				<h1 class="header__title">Ashmiana <span class="header__title header__title_span">Siarhei</span></h1>
-				<h3 class="header__subtitle">Web-developer</h3>
+				<div class="wrapper-btn">
+					<button class="language" id="ru">ru</button>
+					<button class="language language_active" id="en">en</button>
+				</div>
+				<div class="wrapp_name">
+				<h1 class="header__title" id="firstName">Ashmiana </h1>
+				<span class="header__title header__title_span" id="lastName">Siarhei</span>
+			</div>
+				<h3 class="header__subtitle" id="profession">Web-developer</h3>
 			</div>
 		</header>
 		<main class="main">
 			<div class="column">
 				<section class="document-section contact">
-					<h2 class="document-title">Contacts</h2>
+					<h2 class="document-title" id="contacts">Contacts</h2>
 					<ul class="contact__wrapper">
 						<li class="contact__block">
 							<a href="https://www.linkedin.com/in/siarhei-ashmiana-947788251"><div class="contact__image contact__linkedin"></div></a>
@@ -52,27 +59,28 @@
 						<li class="contact__block">
 							<a href="https://www.google.by/maps/@53.7156619,23.8185428,9.5z"><div class="contact__image contact__image_map"></div></a>
 							<div class="contact__text">
-								<a href="https://www.google.by/maps/@53.7156619,23.8185428,9.5z" class="contact__link"><p class="contact__paragraph">Belarus, Hrodna</p></a>
+								<a href="https://www.google.by/maps/@53.7156619,23.8185428,9.5z" class="contact__link"><p class="contact__paragraph" id="location">Belarus, Hrodna</p></a>
 							</div>
 						</li>
 					</ul>
 				</section>
 				<section class="document-section education">
-					<h2 class="document-title">Education</h2>
+					<h2 class="document-title" id="education">Education</h2>
 					<div class="education__block">
 						<div class="date education__date">2005-2010</div>
-						<p class="education__text">Brest State Technical University</p><br>
-						<span class="education__text">Faculty </span><span class="about__text">Mechanical Engineering </span><br>
-						<span class="education__text">Specialty </span><span class="about__text">Vehicle maintenance </span>
+						<p class="education__text" id="university">Brest State Technical University</p><br>
+						<span class="education__text" id="faculty">Faculty </span><span class="about__text" id="facultyName" >Mechanical Engineering </span><br>
+						<span class="education__text" id="specialty">Specialty </span><span class="about__text" id="specialtyName">Vehicle maintenance </span>
 					</div>
 					<div class="education__block">
 						<div class="date education__date">2021-2022</div>
 						<p class="education__text">The Rolling Scopes School</p>
+						<span class="about__text">JavaScript/Front-End 2022Q1</span>
 					</div>
 					
 				</section>
 				<section class="document-section skills">
-					<h2 class="document-title">Skills</h2>
+					<h2 class="document-title" id="skills">Skills</h2>
 					<ul class="skills__wrapper">
 						<li class="skills__block">
 							<p class="skills__text">HTML5</p>
@@ -175,16 +183,16 @@
 					</ul>				
 				</section>
 				<section class="document-section languages">
-					<h2 class="document-title">Foreign languages</h2>
+					<h2 class="document-title" id="languages">Foreign languages</h2>
 					<ul class="languages__list">
-						<li class="languages__item">English(A2)</li>
+						<li class="languages__item" id="english">English(A2)</li>
 					</ul>
 				</section>
 			</div>	
 			<div class="column column_main">
 				<section class="document-section about">
-					<h2 class="document-title">About me</h2>
-					<p class="about__text">
+					<h2 class="document-title" id="aboutMe">About me</h2>
+					<p class="about__text" id="firstAbout">
 						Hello! I want to become a junior frontend developer.  
 						I started studying web development at Rolling Scopes School, where I took js courses and received two certificates of successful completion.
 					</p>
@@ -192,25 +200,27 @@
 					<a href="https://app.rs.school/certificate/usnkndag"><img class="certificate" src="./images/Q1.png" alt=""></a>
 					<a href="https://app.rs.school/certificate/8dirz8px"><img class="certificate" src="./images/js_pe.png" alt=""></a>
 				</div>
-					<p>Now I continue my studies at Rolling Scopes School. I improve my skills by learning the Angular framework. In the future, I would like to work in a strong team with great prospects.</p>
+					<p id="secondAbout">Now I continue my studies at Rolling Scopes School. I improve my skills by learning the Angular framework. In the future, I would like to work in a strong team with great prospects.</p>
 				</section>
 				<section class="document-section work">
-					<h2 class="document-title">What i already did</h2>
+					<h2 class="document-title" id="already">What i already did</h2>
 
 					<div class="work__block">
-						<h3 class="work__head">Shelter project</h3>
+						<h3 class="work__head" id="shelter">Shelter project</h3>
+						<a href="https://github.com/Sergei5431/SHELTER/tree/shelter" target="_blank" class="document-link">github.shelter</a>
 						<div class="work__info">
-							<p class="work__title">This is a project in which you have to design a site consisting of two pages, make it adaptive and interactive.<a href="https://github.com/Sergei5431/SHELTER/tree/shelter" target="_blank" class="document-link">github.shelter</a></p>
+							<p class="work__title" id="shelterText">This is a project in which you have to design a site consisting of two pages, make it adaptive and interactive.</p>
+							
 						</div>
+						
 						<div class="work__info">
 							<a href="https://sergei5431.github.io/SHELTER/SHELTER/pages/main/"><img class="picture" src="./images/shelter.png" alt="portfolio"></a>
-						
 					</div>
-
 					<div class="work__block">
-						<h3 class="work__head">Online-Store</h3>
+						<h3 class="work__head" id="store">Online-Store</h3>
+						<a href="https://github.com/Sergei5431/internet-shop/tree/gh-pages" target="_blank" class="document-link">github.internet-shop</a>
 						<div class="work__info">
-							<p class="work__title">It is necessary to create an online store selling mobile phones, where goods will have the following functionality: filtering, sorting, searching, adding to the cart.<a href="https://github.com/Sergei5431/internet-shop/tree/gh-pages" target="_blank" class="document-link">github.internet-shop</a></p>
+							<p class="work__title" id="storeText">It is necessary to create an online store selling mobile phones, where goods will have the following functionality: filtering, sorting, searching, adding to the cart.</p>
 						</div>
 						<div class="work__info">
 							<a href="https://sergei5431.github.io/internet-shop/src/"><img class="picture" src="./images/shop.png" alt="portfolio"></a>
@@ -218,18 +228,20 @@
 					</div>
 
 					<div class="work__block">
-						<h3 class="work__head">Virtual keyboard</h3>
+						<h3 class="work__head" id="keyboard">Virtual keyboard</h3>
+						<a href="https://github.com/Sergei5431/keyboard" target="_blank" class="document-link">github.keyboard</a>
 						<div class="work__info">
-							<p class="work__title">Create a virtual keyboard where all the necessary elements are generated using JS (index.html file must be empty). <a href="https://github.com/Sergei5431/keyboard" target="_blank" class="document-link">github.keyboard</a></p>
+							<p class="work__title" id="keyboardText">Create a virtual keyboard where all the necessary elements are generated using JS (index.html file must be empty).</p>
 						</div>
 						<div class="work__info">
 							<a href="https://sergei5431.github.io/keyboard/"><img class="picture" src="./images/keyboard.png" alt="portfolio"></a>
 					</div>
 
 					<div class="work__block">
-						<h3 class="work__head">Landing page Portfolio</h3>
+						<h3 class="work__head" id="portfolio">Landing page Portfolio</h3>
+						<a href="https://github.com/Sergei5431/portfolio/tree/portfolio" target="_blank" class="document-link">github.portfolio</a>
 						<div class="work__info">
-							<p class="work__title">The task was to create a landing page for the photographer's portfolio, make it adaptive and interactive.<a href="https://github.com/Sergei5431/portfolio/tree/portfolio" target="_blank" class="document-link">github.portfolio</a></p>
+							<p class="work__title" id="portfolioText">The task was to create a landing page for the photographer's portfolio, make it adaptive and interactive.</p>
 						</div>
 						<div class="work__info">
 							<a href="https://sergei5431.github.io/portfolio/"><img class="picture" src="./images/portfolio.jpg" alt="portfolio"></a>
@@ -237,26 +249,26 @@
 
 				</section>
 				<section class="document-section hobby">
-					<h2 class="document-title">Hobbies</h2>
+					<h2 class="document-title" id="hobbies">Hobbies</h2>
 					<div class="hobby__wrapper">
 						<div class="hobby__row">
 							<div class="hobby__block">
 								<div class="hobby__dot"></div>
-								<p class="hobby__text">Reading books</p>
+								<p class="hobby__text" id="books">Reading books</p>
 							</div>
 							<div class="hobby__block">
 								<div class="hobby__dot"></div>
-								<p class="hobby__text">Self-development</p>
+								<p class="hobby__text" id="self">Self-development</p>
 							</div>
 						</div>
 						<div class="hobby__row">
 							<div class="hobby__block">
 								<div class="hobby__dot"></div>
-								<p class="hobby__text">Сars</p>
+								<p class="hobby__text" id="cars">Cars</p>
 							</div>
 							<div class="hobby__block">
 								<div class="hobby__dot"></div>
-								<p class="hobby__text">Fishing</p>
+								<p class="hobby__text" id="fishing">Fishing</p>
 							</div>
 						</div>
 					</div>
@@ -267,5 +279,6 @@
 			
 		</footer>
 	</div>
+	<script src="./script.js"></script>
 </body>
 </html>
