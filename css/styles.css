@@ -179,6 +179,34 @@ body{
     .header__subtitle{
         font-size: 25px;
     }
+    .wrapper-btn{
+        margin-left: auto; 
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .language{
+        background-color: var(--gray);
+        width: 60px;
+        height: 30px;
+        border-radius: 5px;
+        border: 2px solid gray;
+        margin: 0 10px;
+        font-size: 16px;
+        font-weight: 900;
+        color: gray;
+    }
+    .language:hover{
+        cursor: pointer;
+        opacity: .7;
+    }
+    .language_active{
+        border: 2px solid var(--main-color);
+        color: white;
+        background-color: var(--main-color);
+    }
+    .wrapp_name{
+        display: flex;
+    }
 /* Header Style End */
 /* Contact Style Start */
     .contact__block{
