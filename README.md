@@ -1,5 +1,4 @@
-
 # CV_AshmianaS
+перейдите по ссылке что бы посмотреть на проект
 
-view resume page  https://sergei5431.github.io/CV_AshmianaS/
-
+https://sergei5431.github.io/CV_AshmianaS/
